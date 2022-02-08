@@ -1,0 +1,68 @@
+.footer {
+  background-color: black;
+  color: white;
+}
+.main {
+  margin: 10rem 10% 0 10%;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+.keepInTouch {
+  width: 27%;
+}
+.keepInTouch > * {
+  margin: 15px 0;
+}
+
+.socialLinks {
+  display: flex;
+  justify-content: space-between;
+  gap: 7px;
+}
+.socialLinks > * {
+  font-size: xx-large;
+}
+.download {
+  display: flex;
+  justify-content: space-between;
+}
+.downloadImgs {
+  height: 3rem;
+  width: 119px;
+}
+.usefullLinks {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.usefullLinks > * {
+  text-decoration: none;
+  color: white;
+}
+.ListingCategory {
+  width: 20%;
+}
+.ListingCategory > * {
+  margin: 15px 0;
+}
+.phone > * {
+  margin: 15px 0;
+}
+.reserveRights {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 10%;
+  color: white;
+}
+.allRights {
+  background: red;
+  padding: 20px 0;
+}
+.ListingCategoryLinks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}

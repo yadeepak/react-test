@@ -1,0 +1,61 @@
+.home {
+}
+.sortby {
+  padding: 20px 10%;
+  border-bottom: 2px solid #888888;
+  font-size: large;
+  font-weight: 500;
+  text-align: end;
+}
+.sortbyBtn {
+  border: none;
+  background: transparent;
+  font-size: large;
+  font-weight: 900;
+}
+.sortingOptions {
+  position: absolute;
+  right: 92px;
+  padding: 7px 0;
+  border: 1px solid black;
+  background: white;
+  width: 121px;
+}
+.sortingOptions > * {
+  padding: 0 5px 7px 7px;
+}
+.effectedSorting {
+  background-color: #ff9000;
+  color: white;
+}
+.filtersBusiness {
+  padding: 2rem 10%;
+  display: flex;
+  gap: 15px;
+  background-color: #f6f6f6;
+}
+.allFilters {
+  width: 25%;
+}
+.filterContainer {
+  border: 1px solid black;
+  border-radius: 7px;
+  margin-bottom: 20px;
+}
+.filterTitle {
+  padding: 10px;
+  border-bottom: 1px solid #888888;
+}
+
+.containerItem {
+  background-color: white;
+  padding: 10px;
+  border-radius: 7px;
+}
+.businessCategory {
+  display: flex;
+  justify-content: space-between;
+}
+.businessList {
+  width: 73%;
+}

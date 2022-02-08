@@ -1,0 +1,73 @@
+.header {
+  position: relative;
+  padding-top: 1rem;
+}
+.headerBackgroundImg {
+  width: 100%;
+  position: absolute;
+  object-fit: cover;
+  z-index: 0;
+  left: 0;
+  height: 200px;
+  top: 0;
+}
+.upperHeadingSection {
+  margin: 0 10%;
+  position: relative;
+  z-index: 1;
+  color: white;
+}
+.upperHeadingSectionBlack {
+  background: linear-gradient(180deg, #000, transparent);
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 210px;
+}
+.contacLocation {
+  display: flex;
+  justify-content: space-between;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+}
+.pageLinks {
+  display: flex;
+  gap: 12px;
+}
+.pageLinks > * {
+  color: white;
+  text-decoration: none;
+}
+.actions {
+  border: none;
+  padding: 7px 12px;
+  border-radius: 15px;
+  color: white;
+  font-weight: bold;
+  margin-left: 6px;
+}
+.regidterLoginBtns {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.location {
+  display: flex;
+  align-items: center;
+}
+.selectLocation {
+  display: flex;
+  border: 1px solid white;
+  padding: 5px 10px;
+  border-radius: 15px;
+  color: white;
+  font-weight: bold;
+  background-color: black;
+  margin-left: 5px;
+}

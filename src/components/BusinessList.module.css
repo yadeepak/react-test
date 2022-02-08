@@ -1,0 +1,75 @@
+.tabs {
+  display: flex;
+  margin-bottom: 28px;
+  width: 700px;
+}
+.eachTab {
+  width: 350px;
+  padding: 10px;
+  border: 1px solid black;
+  text-align: center;
+  border-radius: 5px;
+}
+.businessTab {
+  width: 350px;
+  padding: 10px;
+  border: 1px solid black;
+  text-align: center;
+  font-size: 34px;
+  font-weight: 600;
+  background-color: white;
+  border-radius: 5px 0 0 5px;
+}
+.dealsTab {
+  width: 350px;
+  padding: 10px;
+  font-size: 34px;
+
+  border: 1px solid black;
+  text-align: center;
+  border-radius: 0 5px 5px 0;
+  background-color: white;
+
+  font-weight: 600;
+}
+.effectedTab {
+  background-color: #ff9000;
+}
+.businessImg {
+  max-width: 268px;
+}
+.businessImg img {
+  width: 100%;
+  border-radius: 5px;
+}
+.allBusinessLists {
+  /* display: flex;
+  margin-bottom: 28px; */
+  width: 700px;
+}
+.allBusinessList {
+  display: flex;
+  margin-bottom: 28px;
+  padding: 28px;
+  background-color: white;
+  border-radius: 10px;
+}
+.descriptions {
+  margin-left: 20px;
+}
+.descriptions > * {
+  margin-bottom: 20px;
+}
+.detailBtn {
+  border: none;
+  padding: 7px 10px;
+  border-radius: 20px;
+  background-color: red;
+  color: white;
+  font-weight: 600;
+  box-shadow: 8px 4px 10px #888888;
+}
+.pageNumbers {
+  display: flex;
+  justify-content: space-between;
+}
